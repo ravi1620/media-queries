@@ -1,0 +1,74 @@
+/* body{
+    background-color: blue; 
+     color: azure; 
+} */
+
+
+@media only screen and (min-width:1px) and (max-width:576px){
+
+body{
+    background-color: deepskyblue;
+}
+#head{
+    font-size: 3rem;
+    color: yellow;
+}
+img{
+    background-image: url("./images/meil_logo-removebg-preview.png");
+    position: relative;
+    background-size: contain;
+    background-repeat: repeat;
+}
+}
+
+@media only screen and (min-width:577px) and (max-width:768px){
+    body{
+        background-color: rgb(138, 63, 103);
+        color: white;
+    }
+    h1{
+        font-size: 4rem;
+    }
+} 
+
+@media only screen and (min-width:769px) and (max-width:992px){
+    body{
+        background-color:red;
+        color: yellow;
+    }
+    h1{
+        font-size: 12rem;
+    }
+} 
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-color:green;
+        color: yellow;
+    }
+    h1{
+        font-size: 10rem;
+    }
+    img{
+        width: 50vw;
+        height: 70vw;
+    }
+} 
+
+
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    body{
+        background-color:black;
+        color: white;
+    }
+    h1{
+        font-size: 20rem;
+    }
+} 
+
+@media only screen and (width:1400px){
+    body{
+        background-color: chartreuse;
+        color: green;
+    }
+}
